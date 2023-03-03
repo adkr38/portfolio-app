@@ -1,0 +1,33 @@
+{
+  "name": "portfolio-app",
+  "homepage": "https://github.com/adkr38/portfolio-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build && cp ./src/_redirects ./build/_redirects",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@types/webfontloader": "^1.6.35",
+    "@vitejs/plugin-legacy": "^4.0.1",
+    "@vitejs/plugin-react": "^3.1.0",
+    "autoprefixer": "^10.4.13",
+    "gh-pages": "^5.0.0",
+    "postcss": "^8.4.21",
+    "react-icons": "^4.7.1",
+    "react-router-dom": "^6.8.2",
+    "tailwindcss": "^3.2.7",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0",
+    "webfontloader": "^1.6.28"
+  }
+}
