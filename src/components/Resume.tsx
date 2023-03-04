@@ -221,7 +221,7 @@ function Resume() {
           theme={theme}
         />
         <Paragraph
-          content="Stack used: Python, MySQL, AWS Services (Lambda func. Quicksight, S3, Workspaces), JavaScript & Excel."
+          content="Stack used: Python, MySQL, AWS (Lambda func. Quicksight, S3, Workspaces), JavaScript & Excel."
           theme={theme}
         />
       </section>
