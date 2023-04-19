@@ -220,8 +220,14 @@ function Resume() {
           content="Created a warehosue processing-rate tracker alinged with truck arrivals that helped warehouses offer Voluntary Time Off to employees."
           theme={theme}
         />
+
         <Paragraph
-          content="Stack used: Python, MySQL, AWS (Lambda func. Quicksight, S3, Workspaces), JavaScript & Excel."
+          content="Built and delivered different Html + Outlook CSS reports for daily and weekly meetings."
+          theme={theme}
+        />
+
+        <Paragraph
+          content="Stack used: Python, MySQL, HTML/CSS & Excel."
           theme={theme}
         />
       </section>
@@ -288,8 +294,8 @@ function Resume() {
         />
         <InlineDescription
           theme={theme}
-          title="Technologies:"
-          content="ReactJs, NextJs, TailwindCss, SpringBoot, JPA, Tableau, AWS."
+          title="Frameworks:"
+          content="ReactJs, TailwindCss, SpringBoot, Matplotlib/Seaborn, Xlwings, JPA, Tableau."
         />
       </section>
     </div>
