@@ -52,7 +52,7 @@ function Projects() {
       <Project
         theme={theme}
         title="Go/MySql native API"
-        paragraph="Personal project aiming to create a soccer API with MySql & native go, persisting & sharing team + player data for different statgroups."
+        paragraph="Personal project aiming to create a soccer API with MySql & native Go, persisting & serving team/player data for different statgroups."
         link="https://github.com/adkr38/native-api-soccer"
       />
 
