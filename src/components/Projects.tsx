@@ -51,8 +51,8 @@ function Projects() {
     <div className="grid gap-y-8 auto-cols-fr sm:px-32 px-12 py-6">
       <Project
         theme={theme}
-        title="Golang naive API *(Current project I'm working on)"
-        paragraph="Personal project aiming to create a soccer API with MySql & native go, making player & team data available."
+        title="Go/MySql native API"
+        paragraph="Personal project aiming to create a soccer API with MySql & native go, making player & team data available.\n*Current project I'm focusing on."
         link="https://github.com/adkr38/native-api-soccer"
       />
 
