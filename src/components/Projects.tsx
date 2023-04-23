@@ -51,6 +51,13 @@ function Projects() {
     <div className="grid gap-y-8 auto-cols-fr sm:px-32 px-12 py-6">
       <Project
         theme={theme}
+        title="Golang naive API *(Current project I'm working on)"
+        paragraph="Personal project aiming to create a soccer API with MySql & native go, making player & team data available."
+        link="https://github.com/adkr38/native-api-soccer"
+      />
+
+      <Project
+        theme={theme}
         title="Software Insight"
         paragraph="Interactive site designed for having fun with programming language data, just a demo project focusing heavily on Css & React fundamentals. Stack: React, Jsx, Tailwindcss."
         link="https://software-insight.netlify.app/"
