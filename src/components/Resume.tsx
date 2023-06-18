@@ -200,24 +200,36 @@ function Resume() {
         </div>
       </div>
       <CvTitle theme={theme} title="Experience"></CvTitle>
-      <section className="pt-2">
+
+      <section className="pt-4">
+        <JobDescription
+          theme={theme}
+          jobCompany="Amazon"
+          jobTitle="Business Analyst"
+          jobLocation="London, UK"
+          jobTimeInterval="Jun 2023 - Present"
+        />
+        <Paragraph
+          content="Responsible for delivering analytics \& planning for sales events across the european network."
+          theme={theme}
+        />
+
+        <Paragraph
+          content="Stack used: Python, Oracle SQL & Excel."
+          theme={theme}
+        />
+      </section>
+
+      <section className="pt-4">
         <JobDescription
           theme={theme}
           jobCompany="Amazon"
           jobTitle="Network Flow Specialist"
-          jobLocation="Barcelona, Spain"
-          jobTimeInterval="Sept 2021 - Present"
+          jobLocation="Barcelona, ES"
+          jobTimeInterval="Sept 2021 - Jun 2023"
         />
         <Paragraph
-          content="Optimizing Amazon Logistics workflow through the european network. Working on different projects ranging from on-time package delivery success to at-warehouse performance improvement."
-          theme={theme}
-        />
-        <Paragraph
-          content="Developed a truck incidence system that helps pinpoint a significant amount of daily risk & notifies warehouses of truck incidences."
-          theme={theme}
-        />
-        <Paragraph
-          content="Created a warehosue processing-rate tracker alinged with truck arrivals that helped warehouses offer Voluntary Time Off to employees."
+          content="Developed a truck incidence system that helped detect more than 150 daily linehaul delays across Europe, notifying warehouses."
           theme={theme}
         />
 
@@ -227,16 +239,26 @@ function Resume() {
         />
 
         <Paragraph
-          content="Stack used: Python, MySQL, HTML/CSS & Excel."
+          content="Helped analyze & model historical warehouse performance."
+          theme={theme}
+        />
+
+        <Paragraph
+          content="Developed an AWS Chime utility toolkit for Amazon Logistics employees."
+          theme={theme}
+        />
+
+        <Paragraph
+          content="Stack used: Python, MySQL, HTML/CSS, JavaScript & Excel."
           theme={theme}
         />
       </section>
-      <section className="py-2">
+      <section className="py-4">
         <JobDescription
           theme={theme}
           jobCompany="UpWork"
           jobTitle="Data Analyst"
-          jobLocation="United States"
+          jobLocation="Remote, US"
           jobTimeInterval="Jun 2021 - Oct 2021"
         />
         <Paragraph
@@ -265,7 +287,7 @@ function Resume() {
           theme={theme}
           educationCenter="Amazon Career Choice, Ironhack"
           educationTitle="Bootcamp on Backend Development"
-          educationLocation="Barcelona, Spain"
+          educationLocation="Barcelona, ES"
           educationDurationPeriod="Feb 2023 - Jul 2023"
         />
 
@@ -273,7 +295,7 @@ function Resume() {
           theme={theme}
           educationCenter="IEBS Business School"
           educationTitle="Masters Degree on Data Science"
-          educationLocation="Barcelona, Spain"
+          educationLocation="Barcelona, ES"
           educationDurationPeriod="Nov 2021 - Nov 2022"
         />
 
@@ -281,7 +303,7 @@ function Resume() {
           theme={theme}
           educationCenter="Universidad de La Laguna"
           educationTitle="University Degree on Psychology - focus on statistics & neuroscience."
-          educationLocation="Canary Islands, Spain"
+          educationLocation="Canary Islands, ES"
           educationDurationPeriod="Sept 2016 - Jun 2020"
         />
       </section>
@@ -290,12 +312,12 @@ function Resume() {
         <InlineDescription
           theme={theme}
           title="Languages:"
-          content="Python, Java, JavaScript, TypeScript, GoLang, MySQL."
+          content="Python, Java, JavaScript, TypeScript, GoLang, MySQL/OracleSQL."
         />
         <InlineDescription
           theme={theme}
           title="Frameworks:"
-          content="ReactJs, TailwindCss, SpringBoot, Matplotlib/Seaborn, Xlwings, JPA, Tableau."
+          content="ReactJs, TailwindCss, SpringBoot, JPA, Junit, SpringSecurity, Matplotlib/Seaborn, Scikit-learn, Xlwings, Tableau."
         />
       </section>
     </div>

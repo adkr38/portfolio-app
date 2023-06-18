@@ -34,8 +34,8 @@ function Hero() {
           }
         >
           Hello! I'm Adrián Kronewitter Rufino, from Tenerife, Canary Islands.
-          I'm currently working at Amazon in Barcelona as a Network Flow
-          Specialist, doing internal tooling with python & analytics work.
+          I'm currently working at Amazon in Barcelona/London as a Business
+          Analyst, planning Amazon sales events.
         </p>
         <p
           className={
