@@ -51,6 +51,13 @@ function Projects() {
     <div className="grid gap-y-8 auto-cols-fr sm:px-32 px-12 py-6">
       <Project
         theme={theme}
+        title="Scheduling service API"
+        paragraph="Ironhack backend bootcamp final project. Backend with Java, SpringBoot & MySQL, frontend with React & TypeScript."
+        link="https://github.com/adkr38/scheduling-service"
+      />
+
+      <Project
+        theme={theme}
         title="Go/MySql native API"
         paragraph="Personal project aiming to create a soccer API with MySql & native Go, persisting & serving team/player data for different statgroups."
         link="https://github.com/adkr38/native-api-soccer"
@@ -75,13 +82,6 @@ function Projects() {
         title="International Chatroom"
         paragraph="Demo project, resembles a chatting website with multiple city-rooms available, has a cool slider on top to pick your city. Stack: Js, Html, Css & Google Firestore."
         link="https://github.com/adkr38/InternationalChatroom"
-      />
-
-      <Project
-        theme={theme}
-        title="Amazon review scraper"
-        paragraph="Multithreaded python application for scraping user reviews from amazon products based on a product id (ASIN). Stack: Python, PySimpleGUI, Bs4."
-        link="https://github.com/adkr38/amazon_review_scraper"
       />
     </div>
   );
