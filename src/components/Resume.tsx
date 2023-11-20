@@ -206,16 +206,27 @@ function Resume() {
           theme={theme}
           jobCompany="Amazon"
           jobTitle="Business Analyst"
-          jobLocation="London, UK"
+          jobLocation="Barcelona, ES"
           jobTimeInterval="Jun 2023 - Present"
         />
+
         <Paragraph
-          content="Responsible for delivering analytics \& planning for sales events across the european network."
+          content="Proved different hypothesis regarding shipment dimensions & operational efficiency."
           theme={theme}
         />
 
         <Paragraph
-          content="Stack used: Python, Oracle SQL & Excel."
+          content="Helped improve planning cost-efficiency towards big sales events."
+          theme={theme}
+        />
+
+        <Paragraph
+          content="Wrote different ETLs for reporting/business reviews."
+          theme={theme}
+        />
+
+        <Paragraph
+          content="Stack used: Python, Redshift SQL, ETLM & Excel."
           theme={theme}
         />
       </section>
@@ -229,12 +240,12 @@ function Resume() {
           jobTimeInterval="Sept 2021 - Jun 2023"
         />
         <Paragraph
-          content="Developed a truck incidence system that helped detect more than 150 daily linehaul delays across Europe, notifying warehouses."
+          content="Developed a truck incidence system that helped detect more than 150 daily linehaul delays across Europe, notifying warehouses in real time."
           theme={theme}
         />
 
         <Paragraph
-          content="Built and delivered different Html + Outlook CSS reports for daily and weekly meetings."
+          content="Built different Html + Outlook CSS reports for daily and weekly meetings."
           theme={theme}
         />
 

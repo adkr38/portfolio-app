@@ -49,19 +49,19 @@ function Hero() {
           <ol>
             <li>
               <p className={theme === "light" ? pLight : pDark}>
+                <span className={theme === "light" ? spanLight : spanDark}>
+                  Python:
+                </span>{" "}
+                Pandas, Visualization, Sklearn, PySimpleGUI, Bs4, XlWings, Django/Flask, OOP, Webscraping.
+              </p>
+            </li>
+            <li>
+              <p className={theme === "light" ? pLight : pDark}>
                 {" "}
                 <span className={theme === "light" ? spanLight : spanDark}>
                   JS:
                 </span>{" "}
                 React, React Router, Tailwindcss, NextJS, OOP.
-              </p>
-            </li>
-            <li>
-              <p className={theme === "light" ? pLight : pDark}>
-                <span className={theme === "light" ? spanLight : spanDark}>
-                  Python:
-                </span>{" "}
-                Pandas, Visualization, Sklearn, PySimpleGUI, Bs4, XlWings, OOP.
               </p>
             </li>
             <li>
